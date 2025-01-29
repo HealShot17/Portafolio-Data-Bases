@@ -1,0 +1,1 @@
+SELECT user_name,init_date AS Fecha_de_inicio_en_programacion FROM hello_mysql.users where user_name = "brais"
