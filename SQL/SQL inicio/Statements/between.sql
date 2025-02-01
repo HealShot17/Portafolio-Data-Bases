@@ -1,1 +1,0 @@
-SELECT * FROM hello_mysql.users where user_age between 20 and 30;
