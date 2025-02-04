@@ -93,7 +93,7 @@ df_cleaned.to_csv('c:/Users/alber/OneDrive/Escritorio/Portafolio Data Bases/Port
 
 print("\nDatos limpios guardados en 'data/cleaned/datos_limpios.csv'.")
 
-## 6. Visualización de Resultados (Opcional)
+## 6. Visualización de Resultados 
 # Histograma de la columna 'SalePrice'
 plt.figure(figsize=(10, 6))
 sns.histplot(df_cleaned['SalePrice'], kde=True, bins=30, color='blue')
